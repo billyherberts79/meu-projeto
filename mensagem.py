@@ -1,2 +1,9 @@
-mensagem = "Hello world! Utilizando Git com VS Code e testando"
+mensagem = "Hello world!"
 print(mensagem)
+print("Nova feature adicionada!")
+
+def saudacao(nome):
+    return f"Olá, {nome}!"
+
+print(saudacao("Alice"))
+
